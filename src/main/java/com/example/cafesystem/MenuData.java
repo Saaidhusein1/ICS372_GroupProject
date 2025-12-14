@@ -1,37 +1,114 @@
 package com.example.cafesystem;
 
-public class DataStorage {
+public class MenuData {
+    private String Latte = "Latte";
+    private String Cappuccino = "Cappuccino";
     private String Espresso = "Espresso";
-    private String Tea = "Tea";
-    private String Croissant = "Croissant";
-    private String Muffin = "Muffin";
-    private String Cookie = "Cookie";
 
-    private double latte = 2.00;
-    private double cappuccino = 2.50;
-    private double espresso = 3.00;
-    private double small = .25;
-    private double med = .5;
-    private double large = .75;
+    private String Green_Tea = "Green Tea";
+    private String Black_Tea = "Black Tea";
+    private String Herbal_Tea = "Herbal Tea";
 
-    private double green = 2.5;
-    private double black = 3.00;
-    private double herbal = 3.5;
+    private String Butter_Croissant = "Butter";
+    private String Chocolate_Croissant = "Chocolate";
+    private String Blueberry_Muffin = "Blueberry";
+    private String Choco_Chip_Muffin = "Chocolate Chip";
+    private String Chco_Chip_Cookie = "Chocolate Chip";
+    private String Oatmeal_Raisin_Cookie = "Oatmeal Raisin";
 
-    private double customization = .25;
+    public String getLatte() {
+        return Latte;
+    }
 
-    private double butter_croisant = 3.50;
-    private double chocolate_croissant = 4.00;
+    public void setLatte(String latte) {
+        Latte = latte;
+    }
 
-    private double blueberry_muffin = 3.50;
-    private double chocolate_muffin = 4.00;
-    private double chocolate_cookie = 3.50;
-    private double oatmeal_cookie = 4.00;
+    public String getOatmeal_Raisin_Cookie() {
+        return Oatmeal_Raisin_Cookie;
+    }
 
-    private double lbs_coffee_beans = 20;
-    private double gallons_milk = 20;
-    private double lbs_sugar = 20;
-    private double lbs_butter = 20;
-    private double choco_chips = 20;
+    public void setOatmeal_Raisin_Cookie(String oatmeal_Raisin_Cookie) {
+        Oatmeal_Raisin_Cookie = oatmeal_Raisin_Cookie;
+    }
 
+    public String getChco_Chip_Cookie() {
+        return Chco_Chip_Cookie;
+    }
+
+    public void setChco_Chip_Cookie(String chco_Chip_Cookie) {
+        Chco_Chip_Cookie = chco_Chip_Cookie;
+    }
+
+    public String getChoco_Chip_Muffin() {
+        return Choco_Chip_Muffin;
+    }
+
+    public void setChoco_Chip_Muffin(String choco_Chip_Muffin) {
+        Choco_Chip_Muffin = choco_Chip_Muffin;
+    }
+
+    public String getBlueberry_Muffin() {
+        return Blueberry_Muffin;
+    }
+
+    public void setBlueberry_Muffin(String blueberry_Muffin) {
+        Blueberry_Muffin = blueberry_Muffin;
+    }
+
+    public String getChocolate_Croissant() {
+        return Chocolate_Croissant;
+    }
+
+    public void setChocolate_Croissant(String chocolate_Croissant) {
+        Chocolate_Croissant = chocolate_Croissant;
+    }
+
+    public String getButter_Croissant() {
+        return Butter_Croissant;
+    }
+
+    public void setButter_Croissant(String butter_Croissant) {
+        Butter_Croissant = butter_Croissant;
+    }
+
+    public String getHerbal_Tea() {
+        return Herbal_Tea;
+    }
+
+    public void setHerbal_Tea(String herbal_Tea) {
+        Herbal_Tea = herbal_Tea;
+    }
+
+    public String getBlack_Tea() {
+        return Black_Tea;
+    }
+
+    public void setBlack_Tea(String black_Tea) {
+        Black_Tea = black_Tea;
+    }
+
+    public String getGreen_Tea() {
+        return Green_Tea;
+    }
+
+    public void setGreen_Tea(String green_Tea) {
+        Green_Tea = green_Tea;
+    }
+
+    public String getEspresso() {
+        return Espresso;
+    }
+
+    public void setEspresso(String espresso) {
+        Espresso = espresso;
+    }
+
+    public String getCappuccino() {
+        return Cappuccino;
+    }
+
+    public void setCappuccino(String cappuccino) {
+        Cappuccino = cappuccino;
+    }
 }
